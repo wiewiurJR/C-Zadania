@@ -5,9 +5,11 @@
 #include <stdio.h>
 
 int main() {
-int Number;
-    printf("Enter a number 3 times : ");
-scanf("%d",&Number);
+int Number1;
+int Number2;
+int Number3;
+scanf("%d",&Number1);
+scanf("%d",&Number2);
 
 
 }
