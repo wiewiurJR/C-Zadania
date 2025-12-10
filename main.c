@@ -5,11 +5,20 @@
 #include <stdio.h>
 
 int main() {
-int Number1;
-int Number2;
-int Number3;
-scanf("%d",&Number1);
-scanf("%d",&Number2);
+int Number[] = {};
 
 
+
+
+
+
+
+scanf("%d",&Number[0]);
+    printf("First Number: %d \n",Number[0]);
+scanf("%d",&Number[1]);
+    printf("Second Number: %d \n",Number[1]);
+scanf("%d",&Number[2]);
+    printf("Third Number: %d \n",Number[2]);
+
+    printf("The biggest Number is: %d",BigNumb);
 }
