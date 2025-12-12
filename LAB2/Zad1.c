@@ -19,5 +19,7 @@ int main()
     {
         printf("Liczba %d jest niepodzielna przez 2 i 3 \n", x);
     }
+
+    printf("%d",);
     return 0;
 }
