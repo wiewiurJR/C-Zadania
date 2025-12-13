@@ -4,9 +4,5 @@ project(C_Zadania C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(C_Zadania
-
-
-
-
-        LAB2/Zad1.c
+LAB2/Zad2.c
 )

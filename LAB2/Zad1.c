@@ -20,6 +20,16 @@ int main()
         printf("Liczba %d jest niepodzielna przez 2 i 3 \n", x);
     }
 
-    printf("%d",);
+    int lastNumb;
+    lastNumb = x % 10;
+    printf("Ostatnią liczba w  %d jest %d \n", x, lastNumb);
+
+int SecondToLastNumb;
+
+if (x>100) {
+    SecondToLastNumb = (x%100);
+    SecondToLastNumb= SecondToLastNumb % 10;
+}
+printf("Druga od końca liczba  w %d jest %d \n", x, SecondToLastNumb);
     return 0;
 }
