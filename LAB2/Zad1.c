@@ -3,8 +3,7 @@
 //
 #include <stdio.h>
 /* program sprawdza czy podana liczba jest parzysta */
-int main()
-{
+int main() {
     int x;
     printf("Podaj liczbe calkowita: ");
     scanf("%d", &x);
@@ -20,16 +19,16 @@ int main()
         printf("Liczba %d jest niepodzielna przez 2 i 3 \n", x);
     }
 
-    int lastNumb;
-    lastNumb = x % 10;
-    printf("Ostatnią liczba w  %d jest %d \n", x, lastNumb);
 
-int SecondToLastNumb;
-
-if (x>100) {
-    SecondToLastNumb = (x%100);
-    SecondToLastNumb= SecondToLastNumb % 10;
+    if (x % 10 == 1){
+        printf("Ostatnią liczba w  %d jest jeden \n", x);
 }
-printf("Druga od końca liczba  w %d jest %d \n", x, SecondToLastNumb);
-    return 0;
+    int SecondToLastNumb;
+
+    if (x>100) {
+        SecondToLastNumb = (x%100);
+            printf("Dwie ostatnie liczby tej cyfry to  w %d jest %d \n", x, SecondToLastNumb);
+            return 0;
+
+    }
 }
