@@ -5,7 +5,7 @@
 int main() {
     float tablica[1000];
     int n,i=0;
-    printf("Wprowadź liczby:");
+    printf("Wprowadź ile chcesz dodać liczb:");
     scanf("%d",&n);
     while(i<n)
     {
