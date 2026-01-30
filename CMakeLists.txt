@@ -5,6 +5,7 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(C_Zadania
 
-        LAB4/zad5.c
+
+        LAB5/Zad1.c
 
 )
